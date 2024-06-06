@@ -1,4 +1,6 @@
-.dark{
-    background-color: aqua;
-    font-size: 35px;
+
+.large{
+    font-size: 30px;
+    cursor: pointer;
+   
 }
