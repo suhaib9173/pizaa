@@ -1,11 +1,5 @@
-var largesizebtn =document.querySelector(".large-size");
-var smallsizebtn =document.querySelector(".small-size");
-var div=document.querySelector("div");
-function largesize(){
-    div.classList.add("large");
-}
-function smallsize(){
-    div.classList.remove("large");
-}
-largesizebtn.onclick=largesize;
-smallsizebtn.onclick=smallsize;
+var data="";
+    data+="<li>Taboo Burger Bar</li>";
+    data+="<li>Zest Restaurant</li>";
+    data+="<li>Pronto</li>";
+document.querySelector("ul").innerHTML=data;
